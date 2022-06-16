@@ -1,0 +1,19 @@
+package week1.day2;
+
+public class ArrayIntersection {
+	
+		public static void main(String[] args) {
+			int[] x= {3,2,11,4,6,7};
+			int[] y= {1,2,8,4,9,7,3};
+			int i;
+			int j;
+			for(i=0;i<x.length;i++) {
+				for(j=0;j<y.length;j++) {
+					if(x[i] == y[j])
+					System.out.println(x[i]);
+				}
+			}
+		}
+
+}
+		

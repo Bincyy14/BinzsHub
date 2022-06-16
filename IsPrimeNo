@@ -1,0 +1,21 @@
+package week1.day1;
+
+public class IsPrimeNo {
+	
+public static void main(String[] args) {
+	int a = 13;
+	boolean x = false;
+	
+	for (int i=2 ; i<=(a/2); i++) {
+		if ((a%i)==0) {
+			x = true;
+			
+		}
+	}
+	
+	if (x==true)
+		System.out.println("Given No: is not a Prime No");
+	else
+		System.out.println(" Given No: is a Prime No");
+}
+}

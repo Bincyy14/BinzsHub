@@ -1,0 +1,21 @@
+package week1.day1;
+
+public class FibonacciSeries {
+	public static void main(String[] args) {
+		
+		int range= 8;
+		int x=0;
+		int y=1;
+		int sum;
+		System.out.println(x);
+		System.out.println(y);
+		for(int i=1;i<range;i++) {
+			sum = x+y;
+			x=y;
+			y=sum;
+			System.out.println(sum);
+		}
+	}
+	
+
+}
